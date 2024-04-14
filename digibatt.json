@@ -1,0 +1,220 @@
+{
+    "@context": "",
+    "@graph": [
+        {
+            "@type": "eurio:Project",
+            "eurio:title": "DIGITAL SOLUTIONS FOR ACCELERATED BATTERY TESTING",
+            "rdfs:label": "DIGITAL SOLUTIONS FOR ACCELERATED BATTERY TESTING",
+            "eurio:description": "The current paradigm for battery testing is fragmented, time-consuming, and expensive. To fully characterize the performance of a battery cell requires a wide variety of both destructive and non-destructive tests, some of which can last for months or years. A new paradigm for battery testing is needed that takes full advantage of the latest advances in automation, data science, and modelling to bring battery development firmly into the digital era. DigiBatt will slingshot the European battery industry forward by developing novel digital approaches to extract more value from fewer tests. This will save valuable time and resources in a highly competitive industry. DigiBatt has assembled a consortium representing some of the world's leading battery research institutions, Gigafactories, and integrators, and will apply recent advances in autonomous battery testing, model-based simulation, and data-driven semantics to promote digital battery testing from TRL 4 to TRL 6.",
+            "eurio:duration": 36,
+            "eurio:startDate": "2024-01-01",
+            "eurio:endDate": "2026-12-31",
+            "eurio:url": "https://cordis.europa.eu/project/id/101103997",
+            "eurio:hasAcronymn": {
+                "@type": "eurio:Acronymn",
+                "eurio:shortForm": "DigiBatt",
+                "eurio:definition": "DIGITAL SOLUTIONS FOR ACCELERATED BATTERY TESTING"
+            },
+            "eurio:hasInvolvedParty": [
+                {
+                    "@id": "https://w3id.org/digibatt/organization#SINTEF"
+                },
+                {
+                    "@id": "https://w3id.org/digibatt/organization#FREYR"
+                },
+                {
+                    "@id": "https://w3id.org/digibatt/organization#CORVUS"
+                },
+                {
+                    "@id": "https://w3id.org/digibatt/organization#DLR"
+                },
+                {
+                    "@id": "https://w3id.org/digibatt/organization#FZJ"
+                },
+                {
+                    "@id": "https://w3id.org/digibatt/organization#OXFORD"
+                },
+                {
+                    "@id": "https://w3id.org/digibatt/organization#VIF"
+                },
+                {
+                    "@id": "https://w3id.org/digibatt/organization#AVL"
+                },
+                {
+                    "@id": "https://w3id.org/digibatt/organization#VUB"
+                }
+            ]
+        },
+        {
+            "@type": [
+                "eurio:ProjectDeliverable",
+                "eurio:Result",
+                "schema:Report"
+            ],
+            "@id": "https://w3id.org/digibatt/deliverable/public#D1",
+            "rdfs:label": "D1.1 Project handbook and risk management table",
+            "eurio:title": "Project handbook and risk management table",
+            "eurio:description": "Handbook with guidelines for project participants plus table of risks to project completion and mitigation measures.This will be distributed to project participants to ensure smooth running of the project and consistent standards from all partners. This deliverable is associated with task 1.2.",
+            "eurio:identifier": {
+                "@value": "101103997_1_DELIV",
+                "@type": "rdfs:Literal"
+            },
+            "eurio:language": "en"
+        },
+        {
+            "@type": [
+                "eurio:ProjectDeliverable",
+                "eurio:Result",
+                "schema:Report"
+            ],
+            "@id": "https://w3id.org/digibatt/deliverable/public#D2",
+            "rdfs:label": "D1.2 Data management plan",
+            "eurio:title": "Data management plan",
+            "eurio:description": "Plan for how to handle data generated in the project. This will be made available to all participants to ensure consistent standards throughout the project. This forms part of task 1.3.",
+            "eurio:identifier": {
+                "@value": "101103997_2_DELIV",
+                "@type": "rdfs:Literal"
+            },
+            "eurio:language": "en"
+        },
+        {
+            "@type": "schema:ResearchOrganization",
+            "@id": "https://w3id.org/digibatt/organization#SINTEF",
+            "schema:name": "SINTEF AS",
+            "rdfs:label": "SINTEF",
+            "eurio:roleLabel": "coordinator",
+            "schema:description": "SINTEF AS, is the largest independent research organization in Scandinavia and a leader in the European battery research community. SINTEF is among the core developers of digital battery testing tools developed within the framework of EU-funded research, including the Battery Interface Ontology  (BattINFO) in BIG-MAP and the Battery Modelling Toolbox (BattMo) in HYDRA. Furthermore, SINTEF is part of many European-level battery organizations including Battery2030+, Batteries Europe, BEPA, and others, which provides an opportunity to encourage the uptake of DigiBatt solutions in the larger battery community. In addition to its digital infrastructure, SINTEF has a pilot line for battery manufacturing and a battery testing lab with more than 300 channels, which provides ample opportunity for trialling digital battery testing solutions in realistic environments.",
+            "schema:sameAs": [
+                "https://www.wikidata.org/wiki/Q3041255",
+                "https://ror.org/01f677e56"
+            ]
+        },
+        {
+            "@type": "schema:Corporation",
+            "@id": "https://w3id.org/digibatt/organization#FREYR",
+            "schema:name": "FREYR Battery",
+            "rdfs:label": "FREYR",
+            "eurio:roleLabel": "participant",
+            "schema:description": "FREYR AS stands as one of the major European battery gigafactories, dedicated to advancing battery manufacturing and digital solutions. With plans to build 43 GWh of battery manufacturing capacity in Europe, FREYR is at the forefront of the industry’s expansion. FREYR fully embraces the vision of digital battery solutions and is not only focused on its main production line but also investing in additional facilities to enhance its capabilities. This includes the construction of a smaller qualification plant for proving and developing new battery technologies, as well as a Battery Testing Centre aimed at facilitating data acquisition and design development of its products. Within the framework of DigiBatt, FREYR will play a crucial role by providing consultation on the development of proposed solutions and scaling them up for demonstration in their Battery Testing Centre. This collaboration will enable the integration of cutting-edge research and development efforts from DLR with the practical implementation and validation expertise offered by FREYR, ultimately driving advancements in battery technology and manufacturing processes.",
+            "schema:sameAs": [
+                "https://www.wikidata.org/wiki/Q120761341"
+            ]
+        },
+        {
+            "@type": "schema:Corporation",
+            "@id": "https://w3id.org/digibatt/organization#CORVUS",
+            "schema:name": "Corvus Energy",
+            "rdfs:label": "Corvus",
+            "eurio:roleLabel": "participant",
+            "schema:description": "Corvus Energy is the world’s leading supplier of safe, innovative and reliable zero-emission solutions for all segments in the maritime industry. They monitor a large fleet of battery systems operating in vessels at sea, which provide a very large dataset for analysis and optimization. As a maritime ESS developer, Corvus is very interested in digital solutions that can improve the safety of vessels and reduce their downtime in port. Within DigiBatt, Corvus will be responsible for testing battery cells with DigiBatt twins in Hardware-in-the-Loop configurations.",
+            "schema:sameAs": [
+                "https://www.wikidata.org/wiki/Q5173482"
+            ]
+        },
+        {
+            "@type": "schema:ResearchOrganization",
+            "@id": "https://w3id.org/digibatt/organization#DLR",
+            "schema:name": [
+                {
+                    "@value": "Deutsches Zentrum fuer Luft- und Raumfahrt",
+                    "@language": "de"
+                },
+                {
+                    "@value": "German Aerospace Centre",
+                    "@language": "en"
+                }
+            ],
+            "rdfs:label": "DLR",
+            "eurio:roleLabel": "participant",
+            "schema:description": "The Deutsches Zentrum für Luft- und Raumfahrt (DLR), or German Aerospace Center, serves as the national research center for aeronautics and space in the Federal Republic of Germany. It plays a significant role in battery research, spanning from material development to system-level integration. This involvement extends to important European initiatives such as Batteries Europe, BEPA, CATENA, and GAIA-X. Within DLR, the Institute for Engineering Thermodynamics, particularly its Electrochemical Energy Technology (ECE) and Computational Electrochemistry (CEC) departments, contributes extensive expertise in experimental and theoretical battery research. ECE boasts state-of-the-art facilities for multi-scale characterization of battery cells and materials, including capabilities for electrochemical characterization of laboratory and large-format commercial cells with approximately 200 channels. The battery modeling activities of CEC are among the most recognized globally and are integrated into the Helmholtz Institute Ulm for Electrochemical Energy Storage. This institute is a joint venture involving leading battery research institutes in southern Germany, including KIT, University of Ulm, ZSW, and DLR. ECE and CEC collaborate extensively on various projects and internal activities, focusing on model parameterization and validation. Their collaborative efforts encompass areas such as single particle-level modeling, cell manufacturing optimization, operando monitoring of satellite batteries, and the study of degradation phenomena in lithium-ion and next-generation batteries. They are actively involved in optimizing combined experimental-modeling workflows and standardizing data, aligning with best practices in the field.",
+            "schema:sameAs": [
+                "https://www.wikidata.org/wiki/Q157332",
+                "https://ror.org/04bwf3e34"
+            ]
+        },
+        {
+            "@type": "schema:ResearchOrganization",
+            "@id": "https://w3id.org/digibatt/organization#FZJ",
+            "schema:name": [
+                {
+                    "@value": "Forschungszentrum Juelich",
+                    "@language": "de"
+                },
+                {
+                    "@value": "Research Centre Juelich",
+                    "@language": "en"
+                }
+            ],
+            "rdfs:label": "FZJ",
+            "eurio:roleLabel": "participant",
+            "schema:description": "Forschungszentrium Juelich (FZJ) is a national research institution that pursues interdisciplinary research in the fields of energy, information, and bioeconomy. As a member of the Helmholtz Association with roughly 6,800 employees in ten institutes and 80 substitutes, FZJ is one of the largest research institutions in Europe. FZJ is among the core research groups in battery testing for characterization, diagnosis and lifetime prediction for batteries. In addition to the digital infrastructure, FZJ has a battery research centre in Aachen, the centre for ageing, reliability and lifetime prediction for electrochemical and electronics systems (CARL), which has over 4000 battery testing channels, environmental stress lab, clean room and drying room, computer tomography and microscopy lab. Within DigiBatt, FZJ will be responsible for the digitalization of high-throughput ageing test with our testing facility, digital testing platform and associated machine learning and physics-based models.",
+            "schema:sameAs": [
+                "https://www.wikidata.org/wiki/Q697111",
+                "https://ror.org/02nv7yv05"
+            ]
+        },
+        {
+            "@type": "schema:CollegeOrUniversity",
+            "@id": "https://w3id.org/digibatt/organization#OXFORD",
+            "schema:name": "University of Oxford",
+            "rdfs:label": "Oxford",
+            "eurio:roleLabel": "participant",
+            "schema:description": "Oxford University is one of the world’s most prestigious institutions for higher education and research. Oxford’s research activity involves more than 1,900 academic staff, 5,800 research and support staff and 7,000 graduate students. Notable battery research groups in Oxford include those of Prof Sir Peter Bruce and Prof Saiful Islam (Materials Department), and Profs Charles Monroe and David Howey (Engineering Science). Within DigiBatt, Oxford will be responsible for leading digital twin development and to this end will harness facilities including multiple test channels, EIS and NLEIS, thermal chambers, thermal imaging facilities, and compute node/GPUs for model simulation.",
+            "schema:sameAs": [
+                "https://www.wikidata.org/wiki/Q34433",
+                "https://ror.org/052gg0110"
+            ]
+        },
+        {
+            "@type": "schema:Corporation",
+            "@id": "https://w3id.org/digibatt/organization#VIF",
+            "schema:name": [
+                {
+                    "@value": "Virtual Vehicle Research GmbH",
+                    "@language": "en"
+                }
+            ],
+            "rdfs:label": "Virtual Vehicle",
+            "eurio:roleLabel": "participant",
+            "schema:description": "Virtual Vehicle Research GmbH (ViF) is Europe’s largest R&D center for virtual vehicle technology with 300 employees. Research priority is the linking of numerical simulations and hardware testing, which leads to a powerful HW-SW whole system design and automation of testing and validation procedures. Following this focus on industry-related research, ViF is the innovation catalyst for future vehicle technologies. Within DigiBatt, ViF will use its extensive experience in battery lifetime and safety testing to generate data and support the digitalization of these workflows. That includes conducting destructive thermal-runaway tests of battery cells, and using an ontology-based approach to automate the digital processing of the resulting data",
+            "schema:sameAs": [
+                "https://www.wikidata.org/wiki/Q18029229",
+                "https://ror.org/029rc9g37"
+            ]
+        },
+        {
+            "@type": "schema:Corporation",
+            "@id": "https://w3id.org/digibatt/organization#AVL",
+            "schema:name": [
+                {
+                    "@value": "AVL List GmbH",
+                    "@language": "en"
+                }
+            ],
+            "rdfs:label": "AVL",
+            "eurio:roleLabel": "participant",
+            "schema:description": "AVL is the world’s largest independent company for the development, simulation and testing of powertrain systems, their integration into the vehicle as well as new fields like ADAS/AD and Data Intelligence. They are a provider of both software and testing services for the battery industry. Within DigiBatt, AVL will be responsible for the integration of management of battery lifetime and safety model data, as well as their integration into software solutions for OEMs.",
+            "schema:sameAs": [
+                "https://www.wikidata.org/wiki/Q300157",
+                "https://ror.org/01bydex26"
+            ]
+        },
+        {
+            "@type": "schema:CollegeOrUniversity",
+            "@id": "https://w3id.org/digibatt/organization#VUB",
+            "schema:name": [
+                {
+                    "@value": "Free University of Brussels",
+                    "@language": "en"
+                }
+            ],
+            "rdfs:label": "VUB",
+            "eurio:roleLabel": "participant",
+            "schema:description": "The Mobility, Logistics and Automotive Technology Research Centre (MOBI) is nested at the Vrije Universiteit Brussel (VUB) and is a leader in electro-mobility, sustainable mobility and logistics research. It develops electric and hybrid vehicles technologies and evaluates new concepts in mobility and logistics on their sustainability. MOBI aims at a better and safer mobility of people and goods, to reduce congestion and environmental impacts in urban and inter-urban areas, and to improve operational efficiency. EPOWERS Research Group of VUB-MOBI Research Centre is a renowned research group in the field of power electronics, virtual powertrains and energy systems with the vision to create a sustainable, emission-free, affordable, efficient and innovative technologies enabling tomorrow’s smart mobility, transport and energy solutions for everyone in the world. In DigiBatt, EPOWERS research group will be responsible for leading WP7 together with the industrial partners CORVUS, AVL and research partner ViF. Within DigiBatt, EPOWERS is interested to perform virtual testing and validation approach utilising open vehicle powertrain platform for automotive and data-driven system level digital twin for marine applications for the accurately upscaled battery pack.",
+            "schema:sameAs": [
+                "https://www.wikidata.org/wiki/Q612665",
+                "https://ror.org/006e5kg04"
+            ]
+        }
+    ]
+}
